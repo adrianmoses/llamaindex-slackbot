@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llamaindex-slackbot"
+version = "0.1.0"
+description = ""
+authors = ["Adrian Moses <adrian@adrianmoses.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.2"
+python-dotenv = "^1.0.1"
+slack-bolt = "^1.18.1"
+llama-index = "^0.9.44"
+qdrant-client = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
